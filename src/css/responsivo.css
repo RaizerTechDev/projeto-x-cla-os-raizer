@@ -1,0 +1,52 @@
+/* Responsivo para dispositivos menores */
+@media screen and (max-width: 620px) {
+  .cabecalho {
+    margin-top: -30px;
+  }
+  .cabecalho__titulo--destaque {
+    padding: 25px 0;
+    font-size: 35px;
+  }
+
+  .cabecalho__titulo--destaque span {
+    font-size: 28px;
+  }
+
+  .personagens-slider {
+    padding: 0 15px;
+    gap: 10px;
+    position: relative; /* Adicionado para contexto de z-index */
+  }
+
+  .btn-seta {
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+    z-index: 10; /* Certificar que os botões estão acima dos cartões */
+    position: relative; /* Para que o z-index funcione */
+  }
+
+  .btn-voltar {
+    margin-right: 10px; /* Ajuste o valor conforme necessário para afastar o botão da lista */
+  }
+
+  /* Novo seletor para o botão da direita */
+  .btn-seta.btn-direita {
+    margin-left: 10px; /* Ajuste o valor conforme necessário para afastar o botão da lista */
+  }
+
+  .lista-personagens {
+    height: 480px;
+  }
+
+  .lista-personagens:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 5; /* Certificar que a lista não sobreponha os botões */
+    position: relative; /* Para que o z-index funcione */
+  }
+  .cartao .descricao .texto {
+    font-size: 12px;
+    padding: 8px;
+  }
+}

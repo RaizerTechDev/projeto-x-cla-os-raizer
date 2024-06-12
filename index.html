@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Dev em Dobro - Semana do Zero ao Programador Contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon"
+        href="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3BpYnc0cmFia2JqczQ5bW4wbmwxZHd5aGxnNHg0c25yaHdnNTUzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8BDQnNDcocWSnHZLPB/giphy.gif"
+        type="image/x-icon" />
+</head>
+
+<!-- Cabeçalho -->
+<header class="cabecalho">
+    <!-- Titulo Projeto -->
+    <h1 class="cabecalho__titulo cabecalho__titulo--destaque">X-Clã<br><span>Os Raizer</span></h1>
+</header>
+
+<!-- Pagina Principal -->
+<main class="personagens-slider">
+    <!-- Botão  -->
+    <button class="btn-seta btn-voltar" id="btn-voltar">
+        <!-- Imagem Seta -->
+        <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
+    </button>
+
+    <!-- Listas Ordenadas  -->
+    <ul class="lista-personagens">
+        <!-- Itens dentro da Lista -->
+        <li class="cartao selecionado fundo-1">
+            <!-- Subtitulo Nome Personagem -->
+            <h2 class="nome">Seu Alvaro</h2>
+            <!-- Imagem Personagem -->
+            <img class="imagem-personagem" src="src/imagens/SeuAlvaro.png" alt="Seu Alvaro" />
+            <div class="descricao">
+                <!-- Subtitulo Descrição-->
+                <h3 class="titulo">Descrição</h3>
+                <!-- Paragrafo -->
+                <p class="texto">
+                    Chefe da família de experts, Seu Alvaro é um <span style="color:#095f04"><b>" Mentor e Estrategista
+                            Nato" </b></span>, possuidor de uma sabedoria imensa. Conhecido por sua capacidade de
+                    resolver problemas complexos com calma e
+                    precisão, ele lidera com autoridade e compreensão. Quando um plano não dá certo, é melhor sair
+                    de perto, pois ele fica "Virado no Jiraya"
+                    Sua expertise é vital para a segurança dos dados das empresas, tanto nacionais quanto
+                    internacionais. Ele guarda a <span style="color:#095f04"><b>"7 chaves" </b></span>
+                    todas as informações confidenciais, utilizando sua vasta
+                    rede de contatos fora do Brasil. Constantemente em viagens, Seu Alvaro conta sempre com o apoio
+                    de sua nora Marcia quando necessário.
+                    Sua experiência é um recurso inestimável, inspirando e orientando os mais jovens com paciência.
+                    Mais que um líder, Seu Alvaro é um <span style="color:#095f04"><b>"Mentor Essencial"</b></span>
+                    para o sucesso da família.
+                </p>
+            </div>
+        </li>
+
+        <li class="cartao fundo-2">
+            <h2 class="nome">Rafael</h2>
+            <img class="imagem-personagem" src="src/imagens/Rafael.png" alt="Rafael" />
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">É um jovem inteligente com domínio em <span style="color:#095f04"><b>Desenvolvimento
+                            Web</b></span> e grande habilidade em lidar com
+                    códigos. Demonstrando agilidade e rapidez, ele sempre atende prontamente as demandas do pai.
+                    Nas viagens, Rafael nunca deixa de levar seu notebook, que é o seu xodó. Seu objetivo é se tornar um
+                    <span style="color:#095f04"><b>Desenvolvedor Sênior</b></span>, uma meta que está determinado a
+                    alcançar com dedicação e
+                    persistência.
+                </p>
+            </div>
+        </li>
+
+        <li class="cartao fundo-3">
+            <h2 class="nome">Marcia</h2>
+            <img class="imagem-personagem" src="src/imagens/Marcia.png" alt="Marcia" />
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Entusiasta apaixonada por <span style="color:#095f04"><b>"Aviões"</b></span>.
+                    Sempre que a família precisa de ajuda, ela assume com responsabilidade o comando do cockpit,
+                    demonstrando suas habilidades como piloto
+                    refletindo seu profundo conhecimento e amor pela área.
+                    Nos momentos de lazer, Márcia também se dedica ao <span style="color:#095f04"><b>"Mundo dos
+                            Games"</b></span>. Ela aproveita seu tempo livre
+                    para se envolver com jogos, buscando se integrar e entender melhor esse universo fascinante.
+                </p>
+            </div>
+        </li>
+
+        <li class="cartao fundo-4">
+            <h2 class="nome">Karina</h2>
+            <img class="imagem-personagem" src="src/imagens/Karina.png" alt="Karina" />
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">É uma líder de <span style="color:#095f04"><b>"Gamers"</b></span> constante nos
+                    rankings das competições em que participa. Sua
+                    habilidade e dedicação nesta área são inquestionáveis. Sempre pronta para atender às demandas,
+                    responde com prontidão quando seu Álvaro a convoca para realizar projetos desafiadores. Tem uma
+                    expertise impressionante, com seu <span style="color:#095f04"><b>"Óculos 4D"</b></span> para
+                    desenvolver funcionalidades que proporcionam uma
+                    experiência extremamente realista aos usuários.
+                </p>
+            </div>
+        </li>
+
+        <li class="cartao fundo-5">
+            <h2 class="nome">Ronaldo</h2>
+            <img class="imagem-personagem" src="src/imagens/Ronaldo.png" alt="Ronaldo" />
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">É um <span style="color:#095f04"><b>"Especialista em Análise de Dados" </b></span>,
+                    reconhecido por sua dedicação, competência e qualidade inigualáveis. Ele se destaca pela rapidez
+                    com que realiza cálculos e pela prontidão para atender às demandas de seu pai, sempre que
+                    solicitado, para verificar e analisar dados de empresas que necessitam de soluções.
+                    Nas viagens, assim como seu irmão Rafael, ele tem seu notebook como xodó, mas em casa prefere
+                    seus múltiplos monitores, sempre repetindo a frase: <span style="color:#095f04"><b>"Nada como um
+                            monitor grande para enxergar os pequenos detalhes!"</b></span>
+                    Sua expertise é uma referência confiável na área.</p>
+            </div>
+        </li>
+
+        <li class="cartao fundo-6">
+            <h2 class="nome">Professor Tio Aldo</h2>
+            <img class="imagem-personagem" src="./src/imagens/TioAldo.png" alt="Guardião Ricardo" />
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto"><span style="color:#095f04"><b>"Professor e Cientista""</b></span> habilidoso quanto ao
+                    seu irmão Alvaro, assumindo uma grande responsabilidade na proteção dos dados e
+                    informações dos clientes, especialmente os internacionais. Opta por não se aventurar em terras
+                    estrangeiras por seu medor de voar, que quando a família é incumbida de missões lá fora prefere
+                    permanecer no seu <span style="color:#095f04"><b>"laboratório"</b></span>, se autodenominando <span
+                        style="color:#095f04"><b>"Guardião da
+                            Família"</b></span>.
+                </p>
+            </div>
+        </li>
+
+
+    </ul>
+
+    <!-- Botão Seta Avançar -->
+    <button class="btn-seta btn-direita" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+    </button>
+</main>
+
+<!-- Rodapé -->
+<footer id="contact" class="footer text-center mt-5">
+    <h4 class="footer__title">Me acompanhe nas Redes Sociais!!!</h4>
+    <div class="footer__social-icons social-icons">
+        <a href="https://github.com/RafaRz76Dev/portfolio-rafarz76dev" target="_blank" title="GitHub"
+            class="social-icons__link social-icon"><i class="fa-brands fa-github fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/rafael-raizer" target="_blank" title="Linkedin"
+            class="social-icons__link social-icon"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        <a href="mailto:rafarz76dev@gmail.com" target="_blank" rel="external" title="E-mail"
+            class="social-icons__link social-icon"><i class="fa-solid fa-envelope fa-lg"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=47999327137" target="_blank" rel="external" title="Whatsapp"
+            class="social-icons__link social-icon"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+    </div>
+
+    <a class="footer__brand" href="https://rafarz76dev-portfoliotech.netlify.app/" target="_blank" title="Portfolio">
+        <p class="footer__copyright">&copy; 2024<span class="copyright">RafaRz76Dev.</span> All rights reserved.
+        </p>
+    </a>
+</footer>
+
+<script src="./src/js/index.js"></script>
+</body>
+
+</html>
