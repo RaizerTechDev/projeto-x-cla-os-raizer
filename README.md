@@ -5,7 +5,7 @@
 <div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45">
 
-[ ( Clique aqui e conheca os personagens:`Clã dos Raizer`) ]()
+[ ( Clique aqui e conheca os personagens:`Clã dos Raizer`) ](https://rafarz76dev-projeto-x-cla-os-raizer.netlify.app/)
 
 <br>
 
